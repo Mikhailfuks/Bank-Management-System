@@ -1,0 +1,98 @@
+package BankManagementSystem;
+
+import java.util.Scanner 
+
+public class Main 
+
+static Scanner scanner ;
+static int lastaccid=0;
+private static ArrayList<Account>accounts;
+public static void mai(String[args])
+
+
+
+accounts=new ArrayList<>();
+Scanner scanner=new Scanner(System.in);
+
+do {
+System.out.println("Welcome to the bank ");
+System.out.println("1"Create new Account");
+System.out.println("2""Login");
+System.out.println("3".Exit");
+System.out.println
+System.out.println
+i=Scanner.NextInt
+switch(i)
+// We are considering all possible options for events
+case 1 
+createNewAcc();
+break;
+case 2;
+}
+} while(i!=3)
+// We use the while loop to find out if the condition is true, if the event is true, then the console outputs true to us, if false, then false
+}
+
+private static void new NewCreateAcc() {
+System.out.prinln("Enter first name":);
+String firstName=("Enter last name":);
+String lastName=scanner.nextDouble();
+// We with draw the balance from the card
+System.out.prinln("Enter balance":);
+double balance=scanner.nextDouble();
+System.out.println("Enter passcode:(diglts only");
+String passcode=scanner.nextInt();
+System.out.println("Confirm passcode")
+int passcode=Scanner.nextInt();
+
+}
+if(passcode != passcode) {
+	System.out.println("not matching");
+    // We write the password for the banking system
+return;
+}
+int id=100000+lastaccid
+lastaccid-lastaccid+1;
+Account acc=new Account(firstName,lastName,id,balance,passcode);
+accounts.add(acc);
+{
+private static void login() {
+	System.out.println("Enter account id:");
+ int id=Scanner.nextInt();
+System.out.println("Enter passcode");
+int passcode=scanner.nextInt();
+Account account=new account();
+Account account;
+boolean exist=false;
+for(Account acc:accounts) {
+	if(acc.getAccid()==id&& acc.getPasscode()==passcode) {
+		exist=true;
+		account=acc;
+	// Creating a new account with the specified parameters
+    }
+
+}
+if(exist) {
+	
+} else {
+	System.out.prinln("Account doesn't exist ");
+}
+}
+
+private static void showMenu(Account acc) {
+	System.out.println("Welcome "+acc.getFirstName()+acc.getLastName());
+	System.out.println("1.Deposit/n2.Withdraw/n3.Balan")
+int j=scanner.nextInt();
+	switch(i) {
+	case 1:
+	new Deposit();
+	break;
+	case 2
+	new Withdraw();
+ case 3:
+ break;
+// The deposit's contribution to the bank and the interest deducted from it
+System.out.println("Yout balance is  "+acc.getBalance();
+	}
+}
+}
